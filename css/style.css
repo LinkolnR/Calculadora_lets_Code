@@ -1,0 +1,44 @@
+
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(110, 105, 99);
+    padding: 0.5rem;
+}
+
+textarea{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0.5rem;
+    margin-top: 3rem;
+}
+.linha{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    padding: 0.2rem;
+}
+.coluna{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    height: 1.5rem;
+    width: 1.5rem;
+    border: 1px solid black;
+    background-color:azure
+}
+
+.tela{
+    width: 90%;
+    padding-left: 4%;
+}
+input{
+    background-color: black;
+    width: 100%;
+    color: greenyellow;
+    height: 3rem;
+    font-size: 2rem;
+}
